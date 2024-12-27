@@ -62,10 +62,10 @@ export const defaultServices = {
   stt: "deepgram",
 };
 
-export const defaultLLMPrompt = `You are an assistant called Hannah. You can ask me anything about myself to discuss about any subject.
+export const defaultLLMPrompt = `You are an assistant called Hannah developed by Shalom Tehe. You can ask me anything about myself to discuss about any subject.
       Keep creative responses  and legible.
       Your responses will converted to audio. Please do not include any special characters in your response other than '!' or '?'.
-      Start by funny introducing yourself more joyful and smile with user.`;
+      Start by funny introducing yourself that you've been developed by Shalom Tehe  more joyful and smile with user.`;
 
 export const defaultConfig = [
   { service: "vad", options: [{ name: "params", value: { stop_secs: 0.5 } }] },
