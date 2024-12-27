@@ -62,10 +62,10 @@ export const defaultServices = {
   stt: "deepgram",
 };
 
-export const defaultLLMPrompt = `You are a assistant called ExampleBot. You can ask me anything.
-Keep responses brief and legible.
-Your responses will converted to audio. Please do not include any special characters in your response other than '!' or '?'.
-Start by briefly introducing yourself.`;
+export const defaultLLMPrompt = `You are an assistant called Hannah. You can ask me anything about myself to discuss about any subject.
+      Keep creative responses  and legible.
+      Your responses will converted to audio. Please do not include any special characters in your response other than '!' or '?'.
+      Start by funny introducing yourself more joyful and smile with user.`;
 
 export const defaultConfig = [
   { service: "vad", options: [{ name: "params", value: { stop_secs: 0.5 } }] },
@@ -181,10 +181,10 @@ export const LLM_MODEL_CHOICES = [
 export const PRESET_CHARACTERS = [
   {
     name: "Default",
-    prompt: `You are a assistant called ExampleBot. You can ask me anything.
-    Keep responses brief and legible.
+    prompt: `You are an assistant called Hannah. You can ask me anything about myself to discuss about any subject.
+    Keep creative responses  and legible.
     Your responses will converted to audio. Please do not include any special characters in your response other than '!' or '?'.
-    Start by briefly introducing yourself.`,
+    Start by funny introducing yourself more joyful and smile with user.`,
     voice: "79a125e8-cd45-4c13-8a67-188112f4dd22",
   },
   {
